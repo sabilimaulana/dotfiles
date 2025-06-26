@@ -19,8 +19,12 @@
   # environment.
   home.packages = [
     pkgs.bun
-    pkgs.bitwarden-desktop 
-
+    pkgs.git
+    
+    pkgs.discord
+    pkgs.bitwarden-desktop
+    pkgs.zed-editor
+    
     inputs.zen-browser.packages.x86_64-linux.generic
 
     # # Adds the 'hello' command to your environment. It prints a friendly
@@ -40,6 +44,12 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];
+
+   programs.git = {
+    enable = true;
+    userName  = "Sabili Maulana";
+    userEmail = "spacysbl.learn@gmail.com";
+  };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
