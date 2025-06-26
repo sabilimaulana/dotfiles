@@ -22,6 +22,7 @@
     pkgs.gh
     pkgs.git
     pkgs.nodejs_24
+    pkgs.neovim
 
     pkgs.discord
     pkgs.bitwarden-desktop
