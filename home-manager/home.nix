@@ -30,7 +30,8 @@
 
     #inputs.zen-browser.packages.x86_64-linux.generic
 
-    # sudo pacman -S zed zen-browser ghostty
+    # sudo pacman -S zed zen-browser ghostty fisher
+    # fisher install jethrokuan/z
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
