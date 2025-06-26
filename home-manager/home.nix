@@ -24,6 +24,7 @@
     pkgs.discord
     pkgs.bitwarden-desktop
     pkgs.zed-editor
+    pkgs.ghostty 
     
     inputs.zen-browser.packages.x86_64-linux.generic
 
