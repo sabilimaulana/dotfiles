@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, programs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -24,7 +24,6 @@
     pkgs.nodejs_24
     pkgs.neovim
     pkgs.bitwarden-cli
-    pkgs.cloudflare-warp
 
     #pkgs.discord
     #pkgs.bitwarden-desktop
@@ -33,7 +32,7 @@
 
     #inputs.zen-browser.packages.x86_64-linux.generic
 
-    # sudo pacman -S zed zen-browser ghostty fisher easyeffects
+    # sudo pacman -S zed zen-browser ghostty fisher easyeffects cloudflare-warp-bin bitwarden-cli
     # fisher install jethrokuan/z
 
     # # Adds the 'hello' command to your environment. It prints a friendly
@@ -70,7 +69,6 @@
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
-    #".local/share/applications/bitwarden.desktop".source = ./nix-profile/share/applications/bitwarden.dektop;
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
