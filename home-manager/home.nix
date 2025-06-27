@@ -24,6 +24,7 @@
     pkgs.nodejs_24
     pkgs.neovim
     pkgs.bitwarden-cli
+    pkgs.cloudflare-warp
 
     #pkgs.discord
     #pkgs.bitwarden-desktop
