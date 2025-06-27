@@ -25,8 +25,8 @@
     pkgs.neovim
     pkgs.bitwarden-cli
 
-    pkgs.discord
-    pkgs.bitwarden-desktop
+    #pkgs.discord
+    #pkgs.bitwarden-desktop
     #pkgs.zed-editor
     #pkgs.ghostty
 
