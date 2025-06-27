@@ -23,6 +23,7 @@
     pkgs.git
     pkgs.nodejs_24
     pkgs.neovim
+    pkgs.bitwarden-cli
 
     pkgs.discord
     pkgs.bitwarden-desktop
@@ -31,7 +32,7 @@
 
     #inputs.zen-browser.packages.x86_64-linux.generic
 
-    # sudo pacman -S zed zen-browser ghostty fisher
+    # sudo pacman -S zed zen-browser ghostty fisher easyeffects
     # fisher install jethrokuan/z
 
     # # Adds the 'hello' command to your environment. It prints a friendly
@@ -56,6 +57,13 @@
     enable = true;
     userName  = "Sabili Maulana";
     userEmail = "spacysbl.learn@gmail.com";
+  };
+
+  programs.gh = {
+    enable = true;
+    gitCredentialHelper = {
+      enable = true;
+    };
   };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

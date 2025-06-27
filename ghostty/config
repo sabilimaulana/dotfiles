@@ -8,7 +8,7 @@ font-family = "FiraMono Nerd Font"
 font-thicken = true
 font-size = 10
 
-    mouse-hide-while-typing = true
+mouse-hide-while-typing = true
 
 window-decoration = true
 window-save-state = always
