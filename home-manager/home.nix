@@ -32,7 +32,7 @@
 
     #inputs.zen-browser.packages.x86_64-linux.generic
 
-    # sudo pacman -S zed zen-browser ghostty fisher easyeffects cloudflare-warp-bin bitwarden-cli
+    # sudo pacman -S zed zen-browser ghostty fisher easyeffects cloudflare-warp-bin qbittorrent
     # fisher install jethrokuan/z
 
     # # Adds the 'hello' command to your environment. It prints a friendly
